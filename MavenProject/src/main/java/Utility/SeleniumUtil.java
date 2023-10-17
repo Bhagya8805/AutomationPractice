@@ -31,6 +31,7 @@ public class SeleniumUtil {
 	public static Actions action;
 
 	public  WebDriver setUp(String browserName, String appUrl) {
+		
 		if (browserName.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("firefox")) {
@@ -40,6 +41,7 @@ public class SeleniumUtil {
 		}
 		// implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		
 		// maximize browser window
 		driver.manage().window().maximize();
 		// Define WebDriverWait

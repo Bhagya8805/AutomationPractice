@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+	
+	<listeners>
+		<listener class-name="Utility.TestListener" />
+		<listener class-name="Utility.AnnotationTransformer" />
+		<listener class-name="Utility.ExtentReporterNG" />
+	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TestPractice.ActitimeValidations2"/>
-      <class name="TestPractice.Example2"/>
-      <class name="TestPractice.Example1"/>
-      <class name="TestPractice.Example4"/>
-      <class name="TestPractice.Example3"/>
-      <class name="TestPractice.VtigerValidations"/>
-      <class name="TestPractice.ActitimeValidations"/>
+      <class name="SauceDemoTestScripts.TestScripts"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

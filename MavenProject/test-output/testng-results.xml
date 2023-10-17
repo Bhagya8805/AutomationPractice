@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-09T17:37:22 IST" name="Default suite" finished-at="2023-10-09T17:37:29 IST" duration-ms="7194">
+  <suite started-at="2023-10-17T23:22:45 IST" name="Suite" finished-at="2023-10-17T23:22:52 IST" duration-ms="7793">
     <groups>
     </groups>
-    <test started-at="2023-10-09T17:37:22 IST" name="Default test" finished-at="2023-10-09T17:37:29 IST" duration-ms="7194">
-      <class name="TestPractice.SauceDemoAssignment">
-        <test-method signature="loginToSauceDemo()[pri:0, instance:TestPractice.SauceDemoAssignment@f0c8a99]" started-at="2023-10-09T17:37:22 IST" name="loginToSauceDemo" finished-at="2023-10-09T17:37:27 IST" duration-ms="5096" status="PASS">
+    <test started-at="2023-10-17T23:22:45 IST" name="Test" finished-at="2023-10-17T23:22:52 IST" duration-ms="7793">
+      <class name="SauceDemoTestScripts.TestScripts">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:SauceDemoTestScripts.TestScripts@ae13544]" started-at="2023-10-17T23:22:45 IST" name="precondition" finished-at="2023-10-17T23:22:50 IST" duration-ms="5204" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToSauceDemo -->
-        <test-method signature="addProductToCart()[pri:1, instance:TestPractice.SauceDemoAssignment@f0c8a99]" started-at="2023-10-09T17:37:27 IST" name="addProductToCart" finished-at="2023-10-09T17:37:28 IST" duration-ms="648" status="PASS">
+        </test-method> <!-- precondition -->
+        <test-method signature="addProductToCart()[pri:0, instance:SauceDemoTestScripts.TestScripts@ae13544]" started-at="2023-10-17T23:22:50 IST" name="addProductToCart" finished-at="2023-10-17T23:22:52 IST" duration-ms="2366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
-        <test-method signature="enterNameAndZipcode()[pri:2, instance:TestPractice.SauceDemoAssignment@f0c8a99]" started-at="2023-10-09T17:37:28 IST" name="enterNameAndZipcode" finished-at="2023-10-09T17:37:29 IST" duration-ms="1127" status="PASS">
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:SauceDemoTestScripts.TestScripts@ae13544]" started-at="2023-10-17T23:22:52 IST" name="postCondition" finished-at="2023-10-17T23:22:52 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterNameAndZipcode -->
-        <test-method signature="validateSuccessMessage()[pri:3, instance:TestPractice.SauceDemoAssignment@f0c8a99]" started-at="2023-10-09T17:37:29 IST" name="validateSuccessMessage" finished-at="2023-10-09T17:37:29 IST" duration-ms="253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateSuccessMessage -->
-      </class> <!-- TestPractice.SauceDemoAssignment -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- postCondition -->
+      </class> <!-- SauceDemoTestScripts.TestScripts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -39,7 +39,7 @@ public class SauceDemoAssignment extends SeleniumUtil{
 		String addedProductName1=driver.findElement(By.cssSelector("#item_4_title_link>.inventory_item_name")).getText();
 		String addedProductName2=driver.findElement(By.cssSelector("#item_0_title_link>.inventory_item_name")).getText();
 		clickOnElement(driver.findElement(By.id("add-to-cart-sauce-labs-backpack")));
-		clickOnElement(driver.findElement(By.id("add-to-cart-sauce-labs-bike-light")));
+		clickOnElement(driver.findElement(By.id("c")));
 		clickOnElement(driver.findElement(By.className("shopping_cart_link")));
 
 		String cartProductName1=driver.findElement(By.cssSelector("#item_4_title_link>div")).getText();
