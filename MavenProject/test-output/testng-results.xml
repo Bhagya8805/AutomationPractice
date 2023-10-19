@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-19T18:47:02 IST" name="Default suite" finished-at="2023-10-19T18:47:09 IST" duration-ms="7116">
+  <suite started-at="2023-10-19T19:24:55 IST" name="Default suite" finished-at="2023-10-19T19:26:03 IST" duration-ms="68574">
     <groups>
     </groups>
-    <test started-at="2023-10-19T18:47:02 IST" name="Default test" finished-at="2023-10-19T18:47:09 IST" duration-ms="7116">
-      <class name="SauceDemoTestScripts.TestScripts">
-        <test-method is-config="true" signature="precondition()[pri:0, instance:SauceDemoTestScripts.TestScripts@6f4a47c7]" started-at="2023-10-19T18:47:02 IST" name="precondition" finished-at="2023-10-19T18:47:07 IST" duration-ms="4817" status="PASS">
+    <test started-at="2023-10-19T19:24:55 IST" name="Default test" finished-at="2023-10-19T19:26:03 IST" duration-ms="68574">
+      <class name="OrangeHRMScripts.TestOrangeHrmPim">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:24:55 IST" name="precondition" finished-at="2023-10-19T19:25:08 IST" duration-ms="13767" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- precondition -->
-        <test-method signature="addProductToCart()[pri:0, instance:SauceDemoTestScripts.TestScripts@6f4a47c7]" started-at="2023-10-19T18:47:07 IST" name="addProductToCart" finished-at="2023-10-19T18:47:09 IST" duration-ms="2117" status="PASS">
+        <test-method signature="createPIM()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:08 IST" name="createPIM" finished-at="2023-10-19T19:25:19 IST" duration-ms="10872" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProductToCart -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:SauceDemoTestScripts.TestScripts@6f4a47c7]" started-at="2023-10-19T18:47:09 IST" name="postCondition" finished-at="2023-10-19T18:47:09 IST" duration-ms="119" status="PASS">
+        </test-method> <!-- createPIM -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:19 IST" name="postcondition" finished-at="2023-10-19T19:25:21 IST" duration-ms="1208" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- SauceDemoTestScripts.TestScripts -->
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:21 IST" name="precondition" finished-at="2023-10-19T19:25:32 IST" duration-ms="11412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="editPIM()[pri:1, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:32 IST" name="editPIM" finished-at="2023-10-19T19:25:42 IST" duration-ms="10438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editPIM -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:42 IST" name="postcondition" finished-at="2023-10-19T19:25:44 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+        <test-method is-config="true" signature="precondition()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:44 IST" name="precondition" finished-at="2023-10-19T19:25:55 IST" duration-ms="11062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method signature="deletePIM()[pri:2, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:25:55 IST" name="deletePIM" finished-at="2023-10-19T19:26:02 IST" duration-ms="7286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePIM -->
+        <test-method is-config="true" signature="postcondition()[pri:0, instance:OrangeHRMScripts.TestOrangeHrmPim@2a5c8d3f]" started-at="2023-10-19T19:26:02 IST" name="postcondition" finished-at="2023-10-19T19:26:03 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postcondition -->
+      </class> <!-- OrangeHRMScripts.TestOrangeHrmPim -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

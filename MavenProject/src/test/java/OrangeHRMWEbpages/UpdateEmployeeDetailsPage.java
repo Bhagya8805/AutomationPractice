@@ -22,7 +22,7 @@ public class UpdateEmployeeDetailsPage  extends SeleniumUtility{
 	@FindBy(css="div.orangehrm-tabs > div:nth-child(6) > a")
 	private WebElement job;
 	
-	@FindBy(css="div:nth-child(2) > div > div > div.oxd-select-text--after > i")
+	@FindBy(css=".oxd-select-wrapper>div>div:nth-child(2)")
 	private WebElement jobTitle;
 
 	@FindBys(@FindBy(css=".oxd-select-dropdown.--positon-bottom>div"))
@@ -30,6 +30,7 @@ public class UpdateEmployeeDetailsPage  extends SeleniumUtility{
 	
 	@FindBy(css="button[type='submit']")
 	private WebElement saveButton;
+	
 	
 	
 	//TODO: if you need individual object in your script dn create getter method for your private WebElement

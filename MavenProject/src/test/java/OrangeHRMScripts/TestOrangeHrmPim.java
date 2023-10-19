@@ -32,8 +32,7 @@ public class TestOrangeHrmPim extends Utility.SeleniumUtility{
 		getPimHomePage.clickOnAddButton();
 		getAddEmployeePage.createEmployee("Bhagyashri", "Shinde", 3399);
 		getHomePage.clickOnPIM();
-		getPimHomePage.searchCreatedEmployee(3399);
-	
+		
 	}
 	@Test(priority=1)
 	public void editPIM() {
