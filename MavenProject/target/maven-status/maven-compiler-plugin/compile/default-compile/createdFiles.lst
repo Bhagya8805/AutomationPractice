@@ -1,7 +1,7 @@
-Utility\SeleniumUtil.class
-Utility\ExtentReporterNG.class
 Utility\DateUtility.class
 Utility\ExtentManager.class
+Utility\SeleniumUtil.class
+Utility\ExtentReporterNG.class
 Utility\TestListener.class
 Utility\AnnotationTransformer.class
 Utility\ExcelUtility.class

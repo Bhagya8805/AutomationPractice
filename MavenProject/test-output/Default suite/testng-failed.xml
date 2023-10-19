@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrangeHRMScripts.TestOrangeHrmPim">
+      <class name="SauceDemoTestScripts.TestScripts">
         <methods>
+          <include name="postCondition"/>
+          <include name="addProductToCart"/>
           <include name="precondition"/>
-          <include name="postcondition"/>
-          <include name="testPimCreation"/>
-          <include name="testPimDeletion"/>
         </methods>
-      </class> <!-- OrangeHRMScripts.TestOrangeHrmPim -->
+      </class> <!-- SauceDemoTestScripts.TestScripts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

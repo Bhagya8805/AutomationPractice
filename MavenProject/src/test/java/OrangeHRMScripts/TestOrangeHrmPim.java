@@ -14,6 +14,7 @@ public class TestOrangeHrmPim extends Utility.SeleniumUtility{
 	OrangeHRM_LoginPage getLoginPage;
 	HomePage getHomePage;
 	OrangeHRM_PIMPage getPimHomePage;
+	UpdateEmployeeDetailsPage getUpdateEmployeeDetailsPage;
 	AddEmployeePage getAddEmployeePage;
 	@BeforeMethod
 	public void precondition() {
@@ -24,6 +25,7 @@ public class TestOrangeHrmPim extends Utility.SeleniumUtility{
 		getAddEmployeePage=new AddEmployeePage(driver);
 		getLoginPage.loginInOrangeHrmApplication("Admin", "admin123");
 		getHomePage.clickOnPIM();
+		getUpdateEmployeeDetailsPage=new UpdateEmployeeDetailsPage(driver);
 	}
 	@Test
 	public void createPIM() {
@@ -33,14 +35,15 @@ public class TestOrangeHrmPim extends Utility.SeleniumUtility{
 		getPimHomePage.searchCreatedEmployee(3399);
 	
 	}
-	@Test(dependsOnMethods="createPIM")
+	@Test(priority=1)
 	public void editPIM() {
 		getHomePage.clickOnPIM();
 		getPimHomePage.searchCreatedEmployee(3399);
-		getPimHomePage.editCreatedEmployee("Subhash");
+		getPimHomePage.editCreatedEmployee("job title");
+		getUpdateEmployeeDetailsPage.updateEployeeinfo("job title");
 	}
 	
-	@Test(dependsOnMethods="createPIM")
+	@Test(priority=2)
 	public void deletePIM() {
 		getHomePage.clickOnPIM();
 		getPimHomePage.searchCreatedEmployee(3399);
